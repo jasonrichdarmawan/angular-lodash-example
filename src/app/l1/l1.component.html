@@ -1,0 +1,19 @@
+<p>l1 works!</p>
+
+<p style="color: red">check DevTools > Network > file with text `l1_module`</p>
+<p style="color: red">`l1_module` is 554 kB</p>
+
+<p style="color: red">experienceTopics</p>
+<ng-container *ngFor="let topic of experienceTopics">
+    <p>{{topic.theme}} {{topic.themeIcon}} {{topic.topic}}</p>
+</ng-container>
+
+<p style="color: red">topicGrouping</p>
+<ng-container *ngFor="let group of topicGrouping">
+    <div>
+        <p>{{group.theme}} {{group.themeIcon}}</p>
+        <ng-container *ngFor="let topic of group.topics">
+            <p>&nbsp; {{topic.theme}} {{topic.themeIcon}} {{topic.topic}}</p>
+        </ng-container>
+    </div>
+</ng-container>
