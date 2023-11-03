@@ -1,0 +1,16 @@
+<p>les3 works!</p>
+
+<p style="color: red">groupBy(this.transactionData, "transaction.eventId")</p>
+
+<p style="color: red">transactionData</p>
+<ng-container *ngFor="let data of transactionData;">
+    <p>{{data.transaction.eventId}} {{data.transaction.service.$key}}</p>
+</ng-container>
+
+<p style="color: red">groupedTransactions</p>
+<ng-container *ngFor="let group of groupedTransactions">
+    <p>{{group[0].transaction.eventId}}</p>
+    <ng-container *ngFor="let data of group">
+        <p>&nbsp; {{data.transaction.service.$key}}</p>
+    </ng-container>
+</ng-container>

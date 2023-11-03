@@ -14,6 +14,10 @@ const routes: Routes = [
     path: 'lodash-es-2',
     loadChildren: () => import("./les2/les2.module").then(m => m.Les2Module),
   },
+  {
+    path: 'lodash-es-3',
+    loadChildren: () => import("./les3/les3.module").then(m => m.Les3Module),
+  },
 ];
 
 @NgModule({
