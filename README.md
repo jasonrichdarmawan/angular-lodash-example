@@ -1,3 +1,9 @@
+# Result
+
+![lodash](./README/Screenshot%202023-11-03%20at%2010.52.28.png)
+![lodash-es 1](./README/Screenshot%202023-11-03%20at%2010.52.43.png)
+![lodash-es 2](./README/Screenshot%202023-11-03%20at%2010.52.59.png)
+
 # AngularLodashExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
